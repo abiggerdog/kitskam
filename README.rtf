@@ -1,0 +1,86 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww19920\viewh13940\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 \
+\
+KitsKam project.\
+\
+SECTIONS IN THIS DOCUMENT:\
+1.  LAYOUT OF THE DIRECTORIES AND FILES\
+2.  BUILD PROCESS\
+3.  NOTES ON THE COMMAND-LINE UTILITIES\
+\
+************************************\
+\
+1.  LAYOUT OF THE DIRECTORIES AND FILES\
+\
+- amazon_s3_controller_command_line           AN AMAZON S3 UPLOAD COMMAND LINE UTILITY\
+\
+- dslr_controller_comand_line		 	A DSLR CONTROLLER COMMAND LINE UTILITY\
+\
+- kitskam.dmg					THE RELEASE CANDIDATE FOR THE INSTALLED GUI --\
+							THE SAME ONE I'VE GIVEN YOU BEFORE\
+\
+- README.rtf					THIS DOCUMENT\
+\
+- kitskam  		                                		THE DIRECTORY OF THE XCODE PROJECT FOR THE GUI\
+\
+---- kitskam.dmg 					AN  UNCOMPRESSED VERSION OF THE DISTRIBUTION DMG FOR THE GUI APP\
+							(THE SAME I'VE SENT YOU BEFORE)\
+\
+---- kitskam_dist_dmg				DIRECTORY CONTAINING THE COMPRESSED VERSION OF THE DISTRIBUTION DMG\
+-------- kitskam.dmg                             		THE COMPRESSED DISTRIBUTION DMG.  THIS IS THE ONE THAT IS ACTUALLY \
+							GIVEN TO USERS\
+\
+---- command_line_projects			DIRECTORY CONTAINING THE COMMAND-LINE PROJECTS\
+-------- dslr_controller_comand_line		DIRECTORY OF THE DSLR CONTROLLER COMMAND LINE UTIL PROJECT\
+-------- amazon_s3_controller_command_line  DIRECTORY OF THE AMAZON S3 UPLOAD COMMAND LINE UTILITY PROJECT\
+\
+**************************************\
+\
+2.  THE BUILD PROCESS\
+\
+a.  Open the dslr_controller_comand_line project in XCode and build it.\
+b.  Open the amazon_s3_controller_command_line project in XCode and build it\
+c.  Now you must copy "command_line_projects/dslr_controller_comand_line/build/Release/
+\f1 dslr_controller_comand_line" into\
+the "kitskam" directory of the kitskam XCode project.  i.e. it goes into the same directory as the XCode project for the kitskam GUI app.\
+d.  Copy "
+\f0 command_line_projects/
+\f1 amazon_s3_controller_command_line/build/Release/amazon_s3_controller_command_line" into the "kitskam" directory.\
+e.  Clean and build the "kitskam" XCode project.  You needed to do steps a-d first because those command line utilities are included as resources in the kitskam Gui app.\
+f.  Open the uncompressed "kitskam.dmg".  It will mount a new volume you can access in the Finder.\
+g.  Replace the kitskam gui app in the  DMG you opened in (f) with "kitskam/build/Release/kitskam.app".\
+h.  Close the "DMG" from (f) by Ejecting it in the Finder.\
+i.  Open the uncompressed "kitskam.dmg" with the Disk Utility, and you will see it listed on the left side.\
+Left click on it, and select "Convert".  Save the result to the directory 
+\f0 kitskam_dist_dmg/  so that it replaces the old compressed\
+kitskam.dmg that was in there.\
+\
+NOW YOU ARE DONE.  THE "kitskam.dmg" in the kitskam_dist_dmg/ DIRECTORY IS THE DISTRIBUTION DMG.\
+\
+A useful tutorial on creating a distribution DMG file is at\
+http://mac101.net/content/how-to/how-to-create-dmg-art-for-fancy-application-installations/comment-page-1/\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f1 \cf0 *************************************\
+\
+3.  NOTES ON THE COMMAND-LINE UTILITIES\
+\
+If you want you can try these in the Terminal.  \
+\
+If the command line utilities are in the current directory, you can try:\
+\
+./dslr_controller_comand_line --help\
+\
+This will display usage information, and gives more examples.  Note the "./" at the start of the line.\
+\
+./amazon_s3_controller_command_line --help\
+\
+This will display usage information.  Note the "./" at the start of the line.\
+\
+}

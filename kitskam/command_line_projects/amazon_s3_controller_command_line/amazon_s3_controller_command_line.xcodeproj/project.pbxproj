@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F9A0486AA7600D96B5E /* amazon_s3_controller_command_line.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* amazon_s3_controller_command_line.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* amazon_s3_controller_command_line.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* amazon_s3_controller_command_line.1 */; };
+		CE53718E110C0D0800BF941F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE53718D110C0D0800BF941F /* Cocoa.framework */; };
+		CED82B60110653FC0079E08A /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82B5F110653FC0079E08A /* MyController.m */; };
+		CED82B76110655A70079E08A /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82B65110655A70079E08A /* ASIFormDataRequest.m */; };
+		CED82B77110655A70079E08A /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82B67110655A70079E08A /* ASIHTTPRequest.m */; };
+		CED82B78110655A70079E08A /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82B6A110655A70079E08A /* ASIInputStream.m */; };
+		CED82B79110655A70079E08A /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82B6C110655A70079E08A /* ASINetworkQueue.m */; };
+		CED82B7A110655A70079E08A /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82B6E110655A70079E08A /* ASINSStringAdditions.m */; };
+		CED82B7B110655A70079E08A /* ASIS3BucketObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82B70110655A70079E08A /* ASIS3BucketObject.m */; };
+		CED82B7C110655A70079E08A /* ASIS3ListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82B72110655A70079E08A /* ASIS3ListRequest.m */; };
+		CED82B7D110655A70079E08A /* ASIS3Request.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82B74110655A70079E08A /* ASIS3Request.m */; };
+		CED82B8C1106575B0079E08A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED82B8B1106575B0079E08A /* Carbon.framework */; };
+		CED82B941106585E0079E08A /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CED82B931106585E0079E08A /* libz.1.2.3.dylib */; };
+		CED82B9B110658E30079E08A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED82B9A110658E30079E08A /* SystemConfiguration.framework */; };
+		CED82C791106F5C70079E08A /* ParseCommandLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82C781106F5C70079E08A /* ParseCommandLine.m */; };
+		CED82EAB1107A2EF0079E08A /* MyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82EAA1107A2EF0079E08A /* MyUtils.m */; };
+		CED82EAE1107A3320079E08A /* MyAmazonS3Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CED82EAD1107A3320079E08A /* MyAmazonS3Utils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* amazon_s3_controller_command_line.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* amazon_s3_controller_command_line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amazon_s3_controller_command_line.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* amazon_s3_controller_command_line_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amazon_s3_controller_command_line_Prefix.pch; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* amazon_s3_controller_command_line */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = amazon_s3_controller_command_line; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859EA3029092ED04C91782 /* amazon_s3_controller_command_line.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = amazon_s3_controller_command_line.1; sourceTree = "<group>"; };
+		CE53718D110C0D0800BF941F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CED82B5E110653FC0079E08A /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
+		CED82B5F110653FC0079E08A /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
+		CED82B64110655A70079E08A /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIFormDataRequest.h; path = ASI/ASIFormDataRequest.h; sourceTree = "<group>"; };
+		CED82B65110655A70079E08A /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIFormDataRequest.m; path = ASI/ASIFormDataRequest.m; sourceTree = "<group>"; };
+		CED82B66110655A70079E08A /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequest.h; path = ASI/ASIHTTPRequest.h; sourceTree = "<group>"; };
+		CED82B67110655A70079E08A /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequest.m; path = ASI/ASIHTTPRequest.m; sourceTree = "<group>"; };
+		CED82B68110655A70079E08A /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestConfig.h; path = ASI/ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		CED82B69110655A70079E08A /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIInputStream.h; path = ASI/ASIInputStream.h; sourceTree = "<group>"; };
+		CED82B6A110655A70079E08A /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIInputStream.m; path = ASI/ASIInputStream.m; sourceTree = "<group>"; };
+		CED82B6B110655A70079E08A /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = ASI/ASINetworkQueue.h; sourceTree = "<group>"; };
+		CED82B6C110655A70079E08A /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = ASI/ASINetworkQueue.m; sourceTree = "<group>"; };
+		CED82B6D110655A70079E08A /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINSStringAdditions.h; path = ASI/ASINSStringAdditions.h; sourceTree = "<group>"; };
+		CED82B6E110655A70079E08A /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINSStringAdditions.m; path = ASI/ASINSStringAdditions.m; sourceTree = "<group>"; };
+		CED82B6F110655A70079E08A /* ASIS3BucketObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIS3BucketObject.h; path = ASI/ASIS3BucketObject.h; sourceTree = "<group>"; };
+		CED82B70110655A70079E08A /* ASIS3BucketObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIS3BucketObject.m; path = ASI/ASIS3BucketObject.m; sourceTree = "<group>"; };
+		CED82B71110655A70079E08A /* ASIS3ListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIS3ListRequest.h; path = ASI/ASIS3ListRequest.h; sourceTree = "<group>"; };
+		CED82B72110655A70079E08A /* ASIS3ListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIS3ListRequest.m; path = ASI/ASIS3ListRequest.m; sourceTree = "<group>"; };
+		CED82B73110655A70079E08A /* ASIS3Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIS3Request.h; path = ASI/ASIS3Request.h; sourceTree = "<group>"; };
+		CED82B74110655A70079E08A /* ASIS3Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIS3Request.m; path = ASI/ASIS3Request.m; sourceTree = "<group>"; };
+		CED82B8B1106575B0079E08A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		CED82B931106585E0079E08A /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		CED82B9A110658E30079E08A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CED82C771106F5C70079E08A /* ParseCommandLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseCommandLine.h; sourceTree = "<group>"; };
+		CED82C781106F5C70079E08A /* ParseCommandLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseCommandLine.m; sourceTree = "<group>"; };
+		CED82EA91107A2EF0079E08A /* MyUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyUtils.h; path = ../../MyShared/MyUtils.h; sourceTree = SOURCE_ROOT; };
+		CED82EAA1107A2EF0079E08A /* MyUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyUtils.m; path = ../../MyShared/MyUtils.m; sourceTree = SOURCE_ROOT; };
+		CED82EAC1107A3320079E08A /* MyAmazonS3Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAmazonS3Utils.h; path = ../../MyShared/MyAmazonS3Utils.h; sourceTree = SOURCE_ROOT; };
+		CED82EAD1107A3320079E08A /* MyAmazonS3Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAmazonS3Utils.m; path = ../../MyShared/MyAmazonS3Utils.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				CED82B8C1106575B0079E08A /* Carbon.framework in Frameworks */,
+				CED82B941106585E0079E08A /* libz.1.2.3.dylib in Frameworks */,
+				CED82B9B110658E30079E08A /* SystemConfiguration.framework in Frameworks */,
+				CE53718E110C0D0800BF941F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* amazon_s3_controller_command_line */ = {
+			isa = PBXGroup;
+			children = (
+				CED82EA81107A2CF0079E08A /* MyShared */,
+				CED82B61110655940079E08A /* ASI */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				CED82B931106585E0079E08A /* libz.1.2.3.dylib */,
+				CED82B9A110658E30079E08A /* SystemConfiguration.framework */,
+			);
+			name = amazon_s3_controller_command_line;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32A70AAB03705E1F00C91783 /* amazon_s3_controller_command_line_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* amazon_s3_controller_command_line.m */,
+				CED82B5E110653FC0079E08A /* MyController.h */,
+				CED82B5F110653FC0079E08A /* MyController.m */,
+				CED82C771106F5C70079E08A /* ParseCommandLine.h */,
+				CED82C781106F5C70079E08A /* ParseCommandLine.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CE53718D110C0D0800BF941F /* Cocoa.framework */,
+				CED82B8B1106575B0079E08A /* Carbon.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* amazon_s3_controller_command_line */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* amazon_s3_controller_command_line.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		CED82B61110655940079E08A /* ASI */ = {
+			isa = PBXGroup;
+			children = (
+				CED82B64110655A70079E08A /* ASIFormDataRequest.h */,
+				CED82B65110655A70079E08A /* ASIFormDataRequest.m */,
+				CED82B66110655A70079E08A /* ASIHTTPRequest.h */,
+				CED82B67110655A70079E08A /* ASIHTTPRequest.m */,
+				CED82B68110655A70079E08A /* ASIHTTPRequestConfig.h */,
+				CED82B69110655A70079E08A /* ASIInputStream.h */,
+				CED82B6A110655A70079E08A /* ASIInputStream.m */,
+				CED82B6B110655A70079E08A /* ASINetworkQueue.h */,
+				CED82B6C110655A70079E08A /* ASINetworkQueue.m */,
+				CED82B6D110655A70079E08A /* ASINSStringAdditions.h */,
+				CED82B6E110655A70079E08A /* ASINSStringAdditions.m */,
+				CED82B6F110655A70079E08A /* ASIS3BucketObject.h */,
+				CED82B70110655A70079E08A /* ASIS3BucketObject.m */,
+				CED82B71110655A70079E08A /* ASIS3ListRequest.h */,
+				CED82B72110655A70079E08A /* ASIS3ListRequest.m */,
+				CED82B73110655A70079E08A /* ASIS3Request.h */,
+				CED82B74110655A70079E08A /* ASIS3Request.m */,
+			);
+			name = ASI;
+			sourceTree = "<group>";
+		};
+		CED82EA81107A2CF0079E08A /* MyShared */ = {
+			isa = PBXGroup;
+			children = (
+				CED82EAC1107A3320079E08A /* MyAmazonS3Utils.h */,
+				CED82EAD1107A3320079E08A /* MyAmazonS3Utils.m */,
+				CED82EA91107A2EF0079E08A /* MyUtils.h */,
+				CED82EAA1107A2EF0079E08A /* MyUtils.m */,
+			);
+			name = MyShared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* amazon_s3_controller_command_line */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "amazon_s3_controller_command_line" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = amazon_s3_controller_command_line;
+			productInstallPath = "$(HOME)/bin";
+			productName = amazon_s3_controller_command_line;
+			productReference = 8DD76FA10486AA7600D96B5E /* amazon_s3_controller_command_line */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "amazon_s3_controller_command_line" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* amazon_s3_controller_command_line */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* amazon_s3_controller_command_line */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* amazon_s3_controller_command_line.m in Sources */,
+				CED82B60110653FC0079E08A /* MyController.m in Sources */,
+				CED82B76110655A70079E08A /* ASIFormDataRequest.m in Sources */,
+				CED82B77110655A70079E08A /* ASIHTTPRequest.m in Sources */,
+				CED82B78110655A70079E08A /* ASIInputStream.m in Sources */,
+				CED82B79110655A70079E08A /* ASINetworkQueue.m in Sources */,
+				CED82B7A110655A70079E08A /* ASINSStringAdditions.m in Sources */,
+				CED82B7B110655A70079E08A /* ASIS3BucketObject.m in Sources */,
+				CED82B7C110655A70079E08A /* ASIS3ListRequest.m in Sources */,
+				CED82B7D110655A70079E08A /* ASIS3Request.m in Sources */,
+				CED82C791106F5C70079E08A /* ParseCommandLine.m in Sources */,
+				CED82EAB1107A2EF0079E08A /* MyUtils.m in Sources */,
+				CED82EAE1107A3320079E08A /* MyAmazonS3Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = amazon_s3_controller_command_line_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = amazon_s3_controller_command_line;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = amazon_s3_controller_command_line_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = amazon_s3_controller_command_line;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "amazon_s3_controller_command_line" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "amazon_s3_controller_command_line" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
